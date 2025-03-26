@@ -13,6 +13,7 @@ public class JdbcUtils {
 
     private Properties jdbcProps;
 
+
     private static final Logger logger= LogManager.getLogger();
 
     public JdbcUtils(Properties props){
