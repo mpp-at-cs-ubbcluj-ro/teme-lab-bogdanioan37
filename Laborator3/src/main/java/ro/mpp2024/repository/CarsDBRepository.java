@@ -87,7 +87,7 @@ public class CarsDBRepository implements CarRepository{
             preStmt.setString(1,elem.getManufacturer());
             preStmt.setString(2,elem.getModel());
             preStmt.setInt(3,elem.getYear());
-            int result=preStmt.executeUpdate();
+            int resultatat=preStmt.executeUpdate();
         }
         catch (SQLException ex){
             logger.error(ex);

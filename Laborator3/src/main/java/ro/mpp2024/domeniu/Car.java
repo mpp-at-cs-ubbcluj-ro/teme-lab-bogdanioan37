@@ -1,6 +1,7 @@
 package ro.mpp2024.domeniu;
 
 public class Car implements Identifiable<Integer> {
+
     private String manufacturer, model;
     private int year;
     private int id;
